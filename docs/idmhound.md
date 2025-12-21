@@ -63,7 +63,7 @@ Graphing such nodes allows identifying privilege escalation vectors, especially 
 
 Unfortunately, _abath_ is part of the tier1_admins who are allowed to execute commands as _root_ on tier1_machines. A creative adversary should be able to leverage such a chain in a few minutes to fully compromise SRV01.
 
-![Sudoer](images/idmhound/sudo1.png)
+![Sudoer](images/idmhound/sudo2.png)
 
 ## Conclusion
 
