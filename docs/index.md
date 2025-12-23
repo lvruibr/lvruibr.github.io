@@ -6,9 +6,9 @@ Pentesting and auditing FreeIPA/Red Hat Identity Management environments - the L
 
 It is a BloodHound collector designed to graph identities and relationships within a FreeIPA/IdM realm, helping pentesters and IAM auditors quickly understand privilege structures and risks.
 
-📖 Blog post: https://lvruibr.github.io/idmhound
+📖 Blog post: [https://lvruibr.github.io/idmhound](https://lvruibr.github.io/idmhound)
 
-💻 Repository: https://github.com/lvruibr/idmhound
+💻 Repository: [https://github.com/lvruibr/idmhound](https://github.com/lvruibr/idmhound)
 
 ***
 
@@ -20,7 +20,7 @@ In the case of Kerberos Cache Manager (KCM), the tickets can be retrieved by lev
 
 From a defensive perspective, dumping tickets through the KCM socket is relatively challenging to detect. Nonetheless, a few interesting detection opportunities exist.
 
-📖 Blog post: https://lvruibr.github.io/kcmdump
+📖 Blog post: [https://lvruibr.github.io/kcmdump](https://lvruibr.github.io/kcmdump)
 
 ***
 
