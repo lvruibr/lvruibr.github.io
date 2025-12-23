@@ -12,7 +12,7 @@ It is a BloodHound collector designed to graph identities and relationships with
 
 ***
 
-## [Dumping tickets in Kerberos Credential Manager (and detecting it)](https://lvruibr.github.io/kcmdump)
+## [Dumping tickets in Kerberos Cache Manager (and detecting it)](https://lvruibr.github.io/kcmdump)
 
 Keberos tickets have been interesting targets for adversaries looking to perform lateral movements. On Linux machine, the ease of obtaining tickets and detecting such abuses greatly depends on the credential cache used.
 
