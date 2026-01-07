@@ -13,7 +13,7 @@ Interestingly, recent distros (at least those using _sssd_) seem to use by defau
 Nonetheless, the ability to steal tickets (and to detect it) greatly depends on the credential cache. Previous work showed that reading the _KCM_ database gave good results but requires root privileges. 
 
 However, there are many scenarios (phishing, webshell, etc.) where a user session is compromised without knowing the password of the targeted user. 
-_How then to retrieve tickets of a low-privileged user session that was just compromised?_ - **One's own tickets can be dumped through the KCM socket**, including with a low-privileged account. In addition, **with elevated privileges all tickets can be obtained** that way. From a defensive perspective, this technic produces weak signals that are likely to fly under the radar if not well monitored.
+_How then to retrieve tickets of a low-privileged user session that was just compromised?_ - **One's own tickets can be dumped through the KCM socket**, including with a low-privileged account. In addition, **with elevated privileges all tickets can be obtained** that way ([https://github.com/lvruibr/dumpkcm](https://github.com/lvruibr/dumpkcm)). From a defensive perspective, this technic produces weak signals that are likely to fly under the radar if not well monitored.
 
 ## Existing research in the field
 
@@ -93,7 +93,6 @@ Good news, bad news, root can obviously execute actions as other users by changi
 #include <stdlib.h>
 #include <unistd.h>
 #include <errno.h>
-#include <unistd.h>
 #include <pwd.h>
 #include <utmp.h>
 

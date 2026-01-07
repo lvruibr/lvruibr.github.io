@@ -20,7 +20,9 @@ In the case of Kerberos Cache Manager (KCM), the tickets can be retrieved by lev
 
 From a defensive perspective, dumping tickets through the KCM socket is relatively challenging to detect. Nonetheless, a few interesting detection opportunities exist.
 
-📖 Blog post: [https://lvruibr.github.io/kcmdump](https://lvruibr.github.io/kcmdump)
+📖 Blog post: [https://lvruibr.github.io/dumpkcm](https://lvruibr.github.io/dumpkcm)
+
+💻 Repository: [https://github.com/lvruibr/dumpkcm](https://github.com/lvruibr/dumpkcm)
 
 ***
 
