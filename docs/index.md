@@ -14,7 +14,7 @@ It is a BloodHound collector designed to graph identities and relationships with
 
 ## [Dumping tickets in Kerberos Cache Manager (and detecting it)](https://lvruibr.github.io/dumpkcm)
 
-Keberos tickets have been interesting targets for adversaries looking to perform lateral movements. On Linux machine, the ease of obtaining tickets and detecting such abuses greatly depends on the credential cache used.
+Kerberos tickets have been interesting targets for adversaries looking to perform lateral movements. On Linux machine, the ease of obtaining tickets and detecting such abuses greatly depends on the credential cache used.
 
 In the case of Kerberos Cache Manager (KCM), the tickets can be retrieved by leveraging the KCM socket. With low privileges, only one's own tickets will be dumped, but as root all tickets can be retrieved.
 
