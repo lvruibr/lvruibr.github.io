@@ -26,3 +26,12 @@ From a defensive perspective, dumping tickets through the KCM socket is relative
 
 ***
 
+## [Leveraging Keytab Rights](https://lvruibr.github.io/getkeytab)
+
+Remote keytab retrieval in FreeIPA/IdM is a powerful operational feature, but it also introduces a critical security risk if access is misconfigured. An attacker who retrieves a keytab can impersonate a host or service and leverage Kerberos features to compromise the related systems.
+
+On the defensive side, these attacks leave detectable traces, but require accurate monitoring. Baselining and alerting on unusual keytab retrieval requests remains one of the most effective ways to identify abuse early.
+
+📖 Blog post: [https://lvruibr.github.io/getkeytab](https://lvruibr.github.io/getkeytab)
+
+💻 Repository: [https://github.com/lvruibr/idmptkit](https://github.com/lvruibr/idmptkit)
